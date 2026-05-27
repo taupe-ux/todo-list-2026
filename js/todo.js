@@ -15,8 +15,9 @@ function deleteBtn(event){
     checkBtn.remove()
     toDoArray = toDoArray.filter((toDos) => toDos.id !== parseInt(checkBtn.id))
      savedToDoList()
-}
 
+}
+ 
 function paintingToDo(toDoListObj){
     const li = document.createElement("li")
     li.id = toDoListObj.id
