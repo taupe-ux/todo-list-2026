@@ -1,18 +1,16 @@
-.main__log-in {
-  margin: 30px;
+.main__todo {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.main__log-in_greetings {
-  font-size: 32px;
+.todo__form {
   margin-bottom: 30px;
 }
 
-.log-in [type="text"] {
-  width: 300px;
+.todo__form [type="text"] {
+  width: 400px;
   height: 50px;
   border: none;
   border-bottom: 1px solid rgba(1, 1, 1);
@@ -21,13 +19,20 @@
   text-align: center;
 }
 
-.log-in [type="text"]:focus {
+.todo__form [type="text"]:focus {
   outline: none;
   transition: 0.5s ease-in-out;
   border-bottom: 1px solid blue;
 }
+.todo__form [type="submit"] {
+  display: none;
+}
 
-.painting {
-  font-size: 32px;
-  font-weight: 600;
+.todo__ul li {
+  padding-bottom: 10px;
+}
+
+.todo__ul button {
+  border: none;
+  background-color: transparent;
 }
