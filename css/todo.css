@@ -5,6 +5,13 @@
   flex-direction: column;
 }
 
+.main__todo_information {
+  font-size: 28px;
+  margin-top: 80px;
+  padding: 10px;
+  text-align: center;
+}
+
 .todo__form {
   margin-bottom: 30px;
 }
@@ -30,9 +37,17 @@
 
 .todo__ul li {
   padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.todo__ul span {
+  font-size: 32px;
 }
 
 .todo__ul button {
   border: none;
   background-color: transparent;
+  font-size: 32px;
+  cursor: pointer;
 }

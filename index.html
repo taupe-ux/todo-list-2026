@@ -14,23 +14,33 @@
       </div>
 
       <div class="main__log-in">
-        <span class="main__log-in_greetings">Hello! What's your name?</span>
+        <span class="main__log-in_greetings hidden"
+          >Hello! What's your name?</span
+        >
         <form class="log-in">
           <input type="text" />
         </form>
         <h1 class="painting hidden"></h1>
       </div>
 
-      <div class="main__todo">
-        <form class="todo__form">
-          <input required type="text" />
-          <input type="submit" />
-        </form>
-        <ul class="todo__ul"></ul>
+      <div>
+        <div class="main__todo hidden">
+          <h2 class="main__todo_information">What is your focus for today?</h2>
+          <form class="todo__form">
+            <input required type="text" />
+            <input type="submit" />
+          </form>
+          <div class="main__quotes">
+            <span class="quote"></span>
+            <span class="author"></span>
+          </div>
+          <ul class="todo__ul"></ul>
+        </div>
       </div>
     </main>
     <script src="js/clock.js"></script>
     <script src="js/login.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/quotes.js"></script>
   </body>
 </html>
